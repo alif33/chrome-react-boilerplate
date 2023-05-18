@@ -1,10 +1,10 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import './popup.css'
+import '../assets/tailwind.css'
 
 const popup = (
     <div>
-        <h1>This is title</h1>
+        <h1 className="text-5xl bg-green-500">This is title</h1>
     </div>
 )
 
