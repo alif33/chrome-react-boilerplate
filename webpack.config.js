@@ -30,7 +30,11 @@ module.exports = {
                 }],
                 test: /\.css$/i,
 
-            }
+            },
+            {
+                type: 'assets/resource',
+                test: /\.(png|jpg|jpeg|gif|woff|woff2|tff|eot|svg)$/,
+            },
         ]
     },
     "plugins": [

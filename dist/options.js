@@ -17,7 +17,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const option = (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null,
-    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-5xl bg-green-500" }, "Option page")));
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", { className: "text-5xl bg-green-500" }, "Option page"),
+    react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { src: "banner.png" })));
 const container = document.createElement('div');
 document.body.appendChild(container);
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(container);

@@ -5,6 +5,7 @@ import '../assets/tailwind.css'
 const option = (
     <div>
         <h1 className="text-5xl bg-green-500">Option page</h1>
+        <img src="banner.png"/>
     </div>
 )
 
